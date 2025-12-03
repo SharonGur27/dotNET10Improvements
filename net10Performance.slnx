@@ -1,0 +1,20 @@
+<Solution>
+  <Folder Name="/Collections/">
+    <Project Path="ListEnumerator/ListEnumerator.csproj" Id="739c2f49-df85-4bb4-82d6-17f02e6024da" />
+    <Project Path="StackQueueEnumeratorImprovements/StackQueueEnumeratorImprovements.csproj" Id="1d8adecc-0448-46b1-b891-065e7df28360" />
+  </Folder>
+  <Folder Name="/JIT/">
+    <Project Path="DelegateEscapeBenchmarks/DelegateEscapeBenchmarks.csproj" Id="69859f55-5143-4616-81f1-ce143c1344e1" />
+    <Project Path="Escaping/Escaping.csproj" Id="931c2caa-1b0c-45b3-ba6b-4a46f0b8ae1a" />
+    <Project Path="GDV/GDV.csproj" Id="4eabf0e7-4533-417f-b0b2-ecdc1741f9bb" />
+    <Project Path="TryCatch/TryCatch.csproj" Id="d14d9eed-c8c0-4e6e-993d-1bfb96ca178f" />
+  </Folder>
+  <Folder Name="/JSON/">
+    <Project Path="JSONSerializerBenchmark/JSONSerializerBenchmark.csproj" Id="6a03dafd-e874-43ac-80b9-6a7245e354ac" />
+  </Folder>
+  <Folder Name="/LINQ/">
+    <Project Path="ContainsBenchmark/ContainsBenchmark.csproj" Id="6a362bb9-b54a-408a-a027-f0687d2445d7" />
+    <Project Path="LeftJoinBenchmark/LeftJoinBenchmark.csproj" Id="1c013aeb-059a-4e8b-b2e9-f67b955209ef" />
+    <Project Path="SkipToListBenchmark/SkipToListBenchmark.csproj" Id="d0bf31f1-acef-4cb0-8882-a238ec1488f0" />
+  </Folder>
+</Solution>
