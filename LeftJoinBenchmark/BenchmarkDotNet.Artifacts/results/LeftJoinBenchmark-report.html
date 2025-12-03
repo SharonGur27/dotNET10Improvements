@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8' />
+<title>LeftJoinBenchmark-20251201-202540</title>
+
+<style type="text/css">
+	table { border-collapse: collapse; display: block; width: 100%; overflow: auto; }
+	td, th { padding: 6px 13px; border: 1px solid #ddd; text-align: right; }
+	tr { background-color: #fff; border-top: 1px solid #ccc; }
+	tr:nth-child(even) { background: #f8f8f8; }
+</style>
+</head>
+<body>
+<pre><code>
+BenchmarkDotNet v0.15.2, Windows 11 (10.0.26200.7093)
+Intel Core i7-10850H CPU 2.70GHz (Max: 2.71GHz), 1 CPU, 12 logical and 6 physical cores
+.NET SDK 10.0.100
+  [Host]     : .NET 10.0.0 (10.0.25.52411), X64 RyuJIT AVX2
+  DefaultJob : .NET 10.0.0 (10.0.25.52411), X64 RyuJIT AVX2
+</code></pre>
+<pre><code>Job=DefaultJob  
+</code></pre>
+
+<table>
+<thead><tr><th>Method   </th><th>Mean</th><th>Allocated</th>
+</tr>
+</thead><tbody><tr><td>LeftJoin_Manual</td><td>736.3 &mu;s</td><td>65.84 KB</td>
+</tr><tr><td>LeftJoin_Linq</td><td>148.3 &mu;s</td><td>36.95 KB</td>
+</tr></tbody></table>
+</body>
+</html>
